@@ -62,7 +62,6 @@ function createCard() {
 </div>`;
 
   const d = document.createElement("div");
-  d.className = "w-20";
   d.innerHTML = cardHTML;
   document.querySelector(".deck").innerHTML = "";
   document.querySelector(".deck").appendChild(d);
